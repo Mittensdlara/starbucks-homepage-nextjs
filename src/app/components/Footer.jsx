@@ -8,7 +8,7 @@ const Footer = () => {
           <span>|</span>
           <a className="link link-hover ">Contact</a>
           <span>|</span>
-
++
           <a className="link link-hover ">Jobs</a>
           <span>|</span>
 

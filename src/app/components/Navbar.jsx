@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import logo from "../img/logo.png";
 
@@ -39,14 +38,14 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">
+          <a href="/" className="btn btn-ghost text-xl">
             <Image src={logo} alt="logo" className="w-full h-full " />
           </a>
         </div>
         <div className="navbar-start hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-bold">
             <li>
-              <a>MENU</a>
+              <a href="/menu">MENU</a>
             </li>
             <li>
               <a>REWARDS</a>
