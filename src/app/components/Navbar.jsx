@@ -36,10 +36,13 @@ const Navbar = () => {
               <li>
                 <a>GIFT CARDS</a>
               </li>
+              <li>
+              <a href="sign in">Sign in</a>
+            </li>
             </ul>
           </div>
           <a href="/" className="btn btn-ghost text-xl">
-            <Image src={logo} alt="logo" className="w-fit h-full m-auto " />
+            <Image src={logo} alt="logo" className="w-fit h-full m-auto" />
           </a>
         </div>
         <div className="navbar-start hidden lg:flex">
@@ -52,6 +55,9 @@ const Navbar = () => {
             </li>
             <li>
               <a>GIFT CARDS</a>
+            </li>
+            <li>
+              <a href="/signin">Sign in</a>
             </li>
           </ul>
         </div>
