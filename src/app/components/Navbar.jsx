@@ -28,7 +28,7 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content mt-3 font-bold z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>MENU</a>
+                <a href="menu">MENU</a>
               </li>
               <li>
                 <a>REWARDS</a>
@@ -37,7 +37,7 @@ const Navbar = () => {
                 <a>GIFT CARDS</a>
               </li>
               <li>
-              <a href="sign in" >SIGN IN</a>
+              <a href="signin" >SIGN IN</a>
             </li>
             </ul>
           </div>
@@ -56,9 +56,7 @@ const Navbar = () => {
             <li>
               <a>GIFT CARDS</a>
             </li>
-            <li>
-              <a href="/signin">SIGN IN</a>
-            </li>
+
           </ul>
         </div>
         <div className="navbar-center space-x-8 hidden lg:flex">
