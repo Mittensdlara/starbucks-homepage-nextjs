@@ -39,7 +39,7 @@ const Navbar = () => {
             </ul>
           </div>
           <a href="/" className="btn btn-ghost text-xl">
-            <Image src={logo} alt="logo" className="w-full h-full " />
+            <Image src={logo} alt="logo" className="w-fit h-full m-auto " />
           </a>
         </div>
         <div className="navbar-start hidden lg:flex">
