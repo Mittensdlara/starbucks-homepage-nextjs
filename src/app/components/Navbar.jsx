@@ -37,7 +37,7 @@ const Navbar = () => {
                 <a>GIFT CARDS</a>
               </li>
               <li>
-              <a href="sign in">Sign in</a>
+              <a href="sign in" >SIGN IN</a>
             </li>
             </ul>
           </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
               <a>GIFT CARDS</a>
             </li>
             <li>
-              <a href="/signin">Sign in</a>
+              <a href="/signin">SIGN IN</a>
             </li>
           </ul>
         </div>
